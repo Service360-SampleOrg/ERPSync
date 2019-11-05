@@ -1,0 +1,30 @@
+' ERPSync
+@startuml
+
+cloud ERP {
+}
+
+node ERPSync {
+}
+
+node CustomerService {
+}
+
+node OrderService {
+}
+
+node PaymentService {
+}
+
+node CatalogService {
+}
+
+ERP -> ERPSync
+ERPSync -> ERP
+ERPSync --> OrderService
+ERPSync --> CatalogService
+PaymentService ..> ERPSync
+CustomerService ..> ERPSync
+OrderService ..> ERPSync
+
+@enduml
