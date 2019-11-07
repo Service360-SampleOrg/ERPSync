@@ -3,9 +3,9 @@
 Application responsible for data synchronisation to/from ERP and 
 Web-enabling services (Order, Customer, Catalog, etc).
 
-Owner|Tier|Status|Landscape|Contexts
----|---|---|---|---
-ERPTeam|Tier2|Prod|Web|Customers,Orders,Catalog,Payments
+Owner|Tier|Status|Contexts
+---|---|---|---
+ERPTeam|Tier2|Prod|Web,Customers,Orders,Catalog,Payments
 
 ##### Environments
 
